@@ -29,7 +29,7 @@ namespace ScarabolMods
     [ModLoader.ModCallback(ModLoader.EModCallbackType.AfterStartup, "scarabol.carpenters.registercallbacks")]
     public static void AfterStartup()
     {
-      Pipliz.Log.Write("Loaded Carpenters Mod 1.0 by Scarabol");
+      Pipliz.Log.Write("Loaded Carpenters Mod 1.1 by Scarabol");
     }
 
     [ModLoader.ModCallback(ModLoader.EModCallbackType.AfterDefiningNPCTypes, "scarabol.carpenters.registerjobs")]
